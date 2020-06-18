@@ -32,11 +32,10 @@ private String billCode;
     @Size(min=2 ,max=30)
 private String name;
 
-private int phoneNumber;
-
+private Long phoneNumber;
 
 private String Address;
 
 private int bill;
-private int Date;
+private String Date;
 }
